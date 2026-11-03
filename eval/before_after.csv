@@ -1,0 +1,6 @@
+behavior,before,after,n
+aggregate,1,4,4
+answer,16,16,17
+grounded,3,3,3
+missing,5,5,8
+refuse,8,8,8

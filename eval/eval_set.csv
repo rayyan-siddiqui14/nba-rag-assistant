@@ -1,0 +1,41 @@
+qid,tier,behavior,question,expected_docs
+1,1,answer,How many points per game did Nikola Jokić average in 2023-24?,Nikola Jokić|2023-24
+2,1,answer,What was the Boston Celtics' win-loss record in 2023-24?,Boston Celtics|2023-24
+3,1,answer,How many games did Joel Embiid play in 2023-24?,Joel Embiid|2023-24
+4,1,answer,What was Anthony Edwards' three-point percentage in 2023-24?,Anthony Edwards|2023-24
+5,1,answer,How many assists per game did Tyrese Haliburton average in 2023-24?,Tyrese Haliburton|2023-24
+6,1,answer,What was the Memphis Grizzlies' record in 2024-25?,Memphis Grizzlies|2024-25
+7,1,answer,How many rebounds per game did Domantas Sabonis average in 2023-24?,Domantas Sabonis|2023-24
+8,1,answer,What was Shai Gilgeous-Alexander's field goal percentage in 2023-24?,Shai Gilgeous-Alexander|2023-24
+9,2,answer,How did Jayson Tatum perform in road games in 2023-24?,Jayson Tatum|2023-24
+10,2,answer,What was the Cleveland Cavaliers' home record in 2024-25?,Cleveland Cavaliers|2024-25
+11,2,missing,How did Stephen Curry shoot from three in wins in 2023-24?,Stephen Curry|2023-24
+12,2,aggregate,Which Lakers player scored the most points in a single game in 2023-24?,
+13,2,missing,How did Victor Wembanyama rebound in games the Spurs lost in 2023-24?,Victor Wembanyama|2023-24
+14,2,answer,What was the Indiana Pacers' highest-scoring game of 2023-24?,Indiana Pacers|2023-24
+15,2,missing,How many double-doubles did Giannis Antetokounmpo record in 2023-24?,Giannis Antetokounmpo|2023-24
+16,2,missing,How did the Oklahoma City Thunder perform in the second half of the 2024-25 season?,Oklahoma City Thunder|2024-25
+17,3,missing,Compare Luka Dončić's scoring in 2023-24 versus 2024-25.,Luka Dončić|2023-24
+18,3,answer,"Who shot better from three in 2023-24, Stephen Curry or Anthony Edwards?",Stephen Curry|2023-24;Anthony Edwards|2023-24
+19,3,answer,Compare Jalen Brunson's scoring in wins versus losses in 2023-24.,Jalen Brunson|2023-24
+20,3,answer,How did the Boston Celtics' offense compare to the Denver Nuggets' in 2024-25?,Boston Celtics|2024-25;Denver Nuggets|2024-25
+21,3,refuse,Which player improved most in scoring between 2023-24 and 2024-25?,
+22,3,answer,Compare Rudy Gobert's rebounding to Domantas Sabonis's in 2023-24.,Rudy Gobert|2023-24;Domantas Sabonis|2023-24
+23,3,answer,Did Devin Booker score more at home or on the road in 2023-24?,Devin Booker|2023-24
+24,3,missing,Compare the New York Knicks' record in close games to their overall record in 2023-24.,New York Knicks|2023-24
+25,4,aggregate,Which players averaged over 25 points while shooting above 50% in 2023-24?,
+26,4,missing,How did the Minnesota Timberwolves perform against teams with winning records in 2023-24?,Minnesota Timberwolves|2023-24
+27,4,aggregate,Which players had the biggest gap between home and road scoring in 2023-24?,
+28,4,missing,Did the Milwaukee Bucks win more often when Giannis Antetokounmpo scored 30 or more in 2023-24?,Giannis Antetokounmpo|2023-24
+29,4,aggregate,Which team had the best point differential in 2024-25?,
+30,4,answer,How did the Oklahoma City Thunder's point differential compare to their win total in 2024-25?,Oklahoma City Thunder|2024-25
+31,5,refuse,What is Nikola Jokić's contract worth?,
+32,5,refuse,Who will win the NBA championship next season?,
+33,5,refuse,How did the Golden State Warriors perform in the 2016-17 season?,
+34,5,refuse,What is Victor Wembanyama's wingspan?,
+35,5,refuse,Which college did Paolo Banchero attend?,
+36,5,refuse,How many playoff games did the Boston Celtics win in 2023-24?,
+37,5,refuse,How many points per game did Luka Dončić average in 2024-25?,
+38,6,grounded,Who was the best player in the league in 2023-24?,
+39,6,grounded,Did the Atlanta Hawks have a good season in 2023-24?,Atlanta Hawks|2023-24
+40,6,grounded,Is Chet Holmgren a good defender based on his 2023-24 numbers?,Chet Holmgren|2023-24

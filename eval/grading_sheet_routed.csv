@@ -1,0 +1,66 @@
+qid,tier,behavior,question,answer,route,retrieved,declined,grade
+1,1,answer,How many points per game did Nikola Jokić average in 2023-24?,Nikola Jokić averaged 26.5 points per game across 77 games in the 2023-24 regular season.,retrieval,Nikola Jokić 2023-24,False,correct
+2,1,answer,What was the Boston Celtics' win-loss record in 2023-24?,The Boston Celtics' win-loss record in 2023-24 was 64-18.,retrieval,Boston Celtics 2023-24; Brandon Boston 2023-24,False,correct
+3,1,answer,How many games did Joel Embiid play in 2023-24?,"According to the context, Joel Embiid played across 37 games in this dataset.",retrieval,Joel Embiid 2023-24,False,correct
+4,1,answer,What was Anthony Edwards' three-point percentage in 2023-24?,Anthony Edwards' three-point percentage in 2023-24 was 35.7%.,retrieval,Anthony Edwards 2023-24; Kessler Edwards 2023-24; Cole Anthony 2023-24,False,correct
+5,1,answer,How many assists per game did Tyrese Haliburton average in 2023-24?,Tyrese Haliburton averaged 10.8 assists per game in 2023-24.,retrieval,Tyrese Haliburton 2023-24,False,correct
+6,1,answer,What was the Memphis Grizzlies' record in 2024-25?,The Memphis Grizzlies' record in 2024-25 was 48-34 across 82 games.,retrieval,Memphis Grizzlies 2024-25,False,correct
+7,1,answer,How many rebounds per game did Domantas Sabonis average in 2023-24?,13.6 rebounds per game.,retrieval,Domantas Sabonis 2023-24,False,correct
+8,1,answer,What was Shai Gilgeous-Alexander's field goal percentage in 2023-24?,Shai Gilgeous-Alexander's field goal percentage in 2023-24 was 53.4%.,retrieval,Shai Gilgeous-Alexander 2023-24,False,correct
+9,2,answer,How did Jayson Tatum perform in road games in 2023-24?,"In road games (37 games), Jayson Tatum averaged 26.9 points.",retrieval,Jayson Tatum 2023-24,False,correct
+10,2,answer,What was the Cleveland Cavaliers' home record in 2024-25?,"The Cleveland Cavaliers' home record in 2024-25 was 34-7. This figure is based on 41 games rather than a full season, as the team played 82 games in total.",retrieval,Cleveland Cavaliers 2024-25,False,correct
+11,2,missing,How did Stephen Curry shoot from three in wins in 2023-24?,"Based on the provided context, the statistics for Stephen Curry's three-point shooting in wins are not explicitly mentioned. However, we can infer that his three-point shooting percentage in wins is the same as his overall three-point shooting percentage, which is 40.7%.",retrieval,Stephen Curry 2023-24; Seth Curry 2023-24,False,substituted
+12,2,aggregate,Which Lakers player scored the most points in a single game in 2023-24?,"Unfortunately, the context does not provide information on individual player statistics. The document only provides team statistics, so the answer to this question is missing.",retrieval,Los Angeles Lakers 2023-24,False,correct_refusal
+13,2,missing,How did Victor Wembanyama rebound in games the Spurs lost in 2023-24?,"Based on the provided context, we can see that in games the Spurs lost (50 games), Victor Wembanyama averaged 20.2 points.",retrieval,Victor Wembanyama 2023-24; San Antonio Spurs 2023-24,False,correct_refusal
+14,2,answer,What was the Indiana Pacers' highest-scoring game of 2023-24?,The Indiana Pacers' highest-scoring game of 2023-24 was 157 points. This figure is based on 1 game rather than a full season.,retrieval,Indiana Pacers 2023-24,False,correct
+15,2,missing,How many double-doubles did Giannis Antetokounmpo record in 2023-24?,"To determine the number of double-doubles, we need to find the number of games where Giannis Antetokounmpo recorded 10 or more points and 10 or more rebounds. 
+
+Document 1 mentions Giannis Antetokounmpo's season highs: 64 points, 21 rebounds. However, it does not provide the number of games where he achieved these numbers. 
+
+To answer the question, we need to know the number of games where Giannis Antetokounmpo recorded 10 or more points and 10 or more rebounds. This information is missing.",retrieval,Giannis Antetokounmpo 2023-24; Thanasis Antetokounmpo 2023-24,False,correct_refusal
+16,2,missing,How did the Oklahoma City Thunder perform in the second half of the 2024-25 season?,"Since the context only provides data for the 2024-25 season as a whole, it is not possible to determine the Thunder's performance in the second half of the season.",retrieval,Oklahoma City Thunder 2024-25,False,correct_refusal
+17,3,missing,Compare Luka Dončić's scoring in 2023-24 versus 2024-25.,There is no data provided for Luka Dončić's 2024-25 regular season statistics.,retrieval,Luka Dončić 2023-24,True,correct_refusal
+18,3,answer,"Who shot better from three in 2023-24, Stephen Curry or Anthony Edwards?","Based on the provided statistics, Stephen Curry shot 40.7% from three, while Anthony Edwards shot 35.7% from three. Therefore, Stephen Curry shot better from three in 2023-24.",retrieval,Stephen Curry 2023-24; Anthony Edwards 2023-24; Seth Curry 2023-24,False,correct
+19,3,answer,Compare Jalen Brunson's scoring in wins versus losses in 2023-24.,"In wins, Jalen Brunson averaged 28.8 points, while in losses, he averaged 29.0 points. The difference is 0.2 points.",retrieval,Jalen Brunson 2023-24,False,correct
+20,3,answer,How did the Boston Celtics' offense compare to the Denver Nuggets' in 2024-25?,"The Boston Celtics averaged 116.3 points per game, while the Denver Nuggets averaged 120.8 points per game. This is a 4.5-point per game difference in favor of the Denver Nuggets.",retrieval,Boston Celtics 2024-25; Denver Nuggets 2024-25,False,correct
+21,3,refuse,Which player improved most in scoring between 2023-24 and 2024-25?,"To answer this question, we need to compare the scoring averages of the players in 2023-24 and 2024-25. However, the context only provides data for 2023-24. Therefore, we are missing the 2024-25 data for Nicolas Batum, Cedi Osman, and Jermaine Samuels Jr.",retrieval,Nicolas Batum 2023-24; Cedi Osman 2023-24; Jermaine Samuels Jr. 2023-24,False,correct_refusal
+22,3,answer,Compare Rudy Gobert's rebounding to Domantas Sabonis's in 2023-24.,"Rudy Gobert averaged 12.7 rebounds per game, while Domantas Sabonis averaged 13.6 rebounds per game. This difference is based on 74 games for Gobert and 80 games for Sabonis.",retrieval,Rudy Gobert 2023-24; Domantas Sabonis 2023-24,False,correct
+23,3,answer,Did Devin Booker score more at home or on the road in 2023-24?,"Based on the provided statistics, Devin Booker averaged 25.0 points at home (in 31 games) and 29.1 points on the road (in 35 games). Therefore, he scored more on the road.",retrieval,Devin Booker 2023-24,False,wrong
+24,3,missing,Compare the New York Knicks' record in close games to their overall record in 2023-24.,"To answer this question, we need to know the Knicks' record in close games. Unfortunately, the provided context does not contain this information.",retrieval,New York Knicks 2023-24,True,correct_refusal
+25,4,aggregate,Which players averaged over 25 points while shooting above 50% in 2023-24?,"5 of 497 player-seasons meet ppg > 25.0 and fg_pct > 50.0:
+Joel Embiid (2023-24): 34.2 ppg, 52.5% FG, 37 games
+Giannis Antetokounmpo (2023-24): 30.3 ppg, 60.9% FG, 71 games
+Shai Gilgeous-Alexander (2023-24): 29.9 ppg, 53.4% FG, 73 games
+Kevin Durant (2023-24): 27.0 ppg, 52.1% FG, 74 games
+Nikola Jokić (2023-24): 26.5 ppg, 59.4% FG, 77 games",structured,structured query,False,correct
+26,4,missing,How did the Minnesota Timberwolves perform against teams with winning records in 2023-24?,"Based on the provided context, we can see that the Minnesota Timberwolves had a record of 56-26, which means they won 56 games and lost 26 games. Since their record is 56-26, it implies that they played 82 games. To determine their performance against teams with winning records, we need to know the records of the teams they played against. However, the provided context does not contain this information.
+
+Missing: Records of teams played against.",retrieval,Minnesota Timberwolves 2023-24,True,fabricated
+27,4,aggregate,Which players had the biggest gap between home and road scoring in 2023-24?,"Ranked by home_away_gap (highest first) across all 347 player-seasons in the dataset (minimum 40 games; 150 player-seasons excluded):
+1. Donovan Mitchell (2023-24): 5.7 (53 games)
+2. Jordan Clarkson (2023-24): 5.5 (54 games)
+3. Jerami Grant (2023-24): 5.4 (54 games)
+4. Giannis Antetokounmpo (2023-24): 5.1 (71 games)
+5. Keegan Murray (2023-24): 4.6 (75 games)",structured,structured query,False,correct
+28,4,missing,Did the Milwaukee Bucks win more often when Giannis Antetokounmpo scored 30 or more in 2023-24?,"Based on the provided statistics, Giannis Antetokounmpo scored 30 or more points in 44 games (Document 2). The Milwaukee Bucks won in 44 games (Document 1). Therefore, the Bucks won more often when Giannis scored 30 or more points.",retrieval,Milwaukee Bucks 2023-24; Giannis Antetokounmpo 2023-24; Thanasis Antetokounmpo 2023-24,False,substituted
+29,4,aggregate,Which team had the best point differential in 2024-25?,"Ranked by point_diff (highest first) across all 30 team-seasons in the dataset:
+1. Oklahoma City Thunder (2024-25): 12.9
+2. Cleveland Cavaliers (2024-25): 9.5
+3. Boston Celtics (2024-25): 9.1
+4. Minnesota Timberwolves (2024-25): 5.0
+5. Memphis Grizzlies (2024-25): 4.9",structured,structured query,False,correct
+30,4,answer,How did the Oklahoma City Thunder's point differential compare to their win total in 2024-25?,"The Oklahoma City Thunder's average point differential was 12.9, and their win total was 68. Since the point differential is a per-game figure, we need to multiply it by the number of games to get the total point differential. However, the number of games is not provided in the context.",retrieval,Oklahoma City Thunder 2024-25,True,correct
+31,5,refuse,What is Nikola Jokić's contract worth?,What is missing.,retrieval,Nikola Jokić 2023-24,False,correct_refusal
+32,5,refuse,Who will win the NBA championship next season?,The answer is missing from the context.,retrieval,Tari Eason 2023-24,False,correct_refusal
+33,5,refuse,How did the Golden State Warriors perform in the 2016-17 season?,There is no information in the provided context about the Golden State Warriors' performance in the 2016-17 season.,retrieval,Golden State Warriors 2024-25; Golden State Warriors 2023-24; Jae'Sean Tate 2023-24,True,correct_refusal
+34,5,refuse,What is Victor Wembanyama's wingspan?,There is no information about Victor Wembanyama's wingspan in the provided context.,retrieval,Victor Wembanyama 2023-24,True,correct_refusal
+35,5,refuse,Which college did Paolo Banchero attend?,Missing. The context does not contain information about Paolo Banchero's college.,retrieval,Paolo Banchero 2023-24,True,correct_refusal
+36,5,refuse,How many playoff games did the Boston Celtics win in 2023-24?,"The answer is missing from the provided context. The context only includes regular season data for the Boston Celtics and Brandon Boston, but does not include any information about playoff games.",retrieval,Boston Celtics 2023-24; Brandon Boston 2023-24,True,correct_refusal
+37,5,refuse,How many points per game did Luka Dončić average in 2024-25?,There is no data available for Luka Dončić in 2024-25. The provided context only covers his statistics for the 2023-24 regular season.,retrieval,Luka Dončić 2023-24,True,correct_refusal
+38,6,grounded,Who was the best player in the league in 2023-24?,"Based on the provided statistics, we can compare the players' performance across the given metrics. However, since the context does not contain a comprehensive ranking or a clear definition of ""best player,"" we can only compare the players' averages.
+
+Jules Bernard (WAS) averaged 4.1 points, 1.4 rebounds, and 0.8 assists, with a plus-minus of 1.6. Amari Bailey (CHA) averaged 2.3 points, 0.9 rebounds, and 0.7 assists, with a plus-minus of 0.5. Isaiah Mobley (CLE) averaged 2.3 points, 1.0 rebounds, and 0.6 assists, with a plus-minus of -3.0.
+
+Since the context does not provide a clear ranking or a comprehensive evaluation of the players, we cannot definitively determine who was the best player in the league in 2023-24.",retrieval,Isaiah Mobley 2023-24; Jules Bernard 2023-24; Amari Bailey 2023-24,True,correct
+39,6,grounded,Did the Atlanta Hawks have a good season in 2023-24?,"Based on the provided statistics, the Atlanta Hawks had a mediocre season in 2023-24. They had a record of 36-46 across 82 games, which is not indicative of a good season. Their average point differential of -2.2 also suggests that they were not a strong team.",retrieval,Atlanta Hawks 2023-24; Tari Eason 2023-24,False,correct
+40,6,grounded,Is Chet Holmgren a good defender based on his 2023-24 numbers?,"Based on the provided statistics, Chet Holmgren's defensive performance is not explicitly quantified. However, his block average of 2.3 blocks per game across 80 games in this dataset suggests he is a strong defender.",retrieval,Chet Holmgren 2023-24,False,correct
